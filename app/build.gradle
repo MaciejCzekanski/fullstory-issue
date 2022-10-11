@@ -52,8 +52,8 @@ android {
 }
 
 dependencies {
-    implementation "com.fullstory:instrumentation-full:1.31.0@aar"
-    implementation "com.fullstory:compose:1.31.0@aar"
+    implementation "com.fullstory:instrumentation-full:1.31.1@aar"
+    implementation "com.fullstory:compose:1.31.1@aar"
 
     implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.activity:activity-compose:1.6.0'
