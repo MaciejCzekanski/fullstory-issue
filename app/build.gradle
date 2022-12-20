@@ -52,19 +52,19 @@ android {
 }
 
 dependencies {
-    implementation "com.fullstory:instrumentation-full:1.31.1@aar"
-    implementation "com.fullstory:compose:1.31.1@aar"
+    implementation "com.fullstory:instrumentation-full:1.33.0@aar"
+    implementation "com.fullstory:compose:1.33.0@aar"
 
     implementation 'androidx.core:core-ktx:1.9.0'
-    implementation 'androidx.activity:activity-compose:1.6.0'
+    implementation 'androidx.activity:activity-compose:1.6.1'
     implementation 'androidx.compose.foundation:foundation:1.2.1'
-    implementation 'androidx.compose.material:material:1.2.1'
-    implementation "androidx.compose.ui:ui:1.2.1"
-    implementation "androidx.compose.ui:ui-tooling:1.2.1"
-    implementation "androidx.compose.ui:ui-util:1.2.1"
+    implementation 'androidx.compose.material:material:1.3.0'
+    implementation "androidx.compose.ui:ui:1.3.0"
+    implementation "androidx.compose.ui:ui-tooling:1.3.0"
+    implementation "androidx.compose.ui:ui-util:1.3.0"
 
     implementation 'com.google.maps.android:maps-compose:2.7.2'
     implementation 'com.google.android.gms:play-services-maps:18.1.0'
 
-    debugImplementation "androidx.compose.ui:ui-test-manifest:1.2.1"
+    debugImplementation "androidx.compose.ui:ui-test-manifest:1.3.0"
 }
